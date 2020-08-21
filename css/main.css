@@ -411,6 +411,7 @@ html, body {
     border-radius: 50%;
     border: 3px solid var(--white-color);
     margin: 1rem 1rem 0 1rem;
+    max-width: 125px;
 }
 
 .profile-sidebar {
@@ -465,18 +466,21 @@ html, body {
 .profile-name {
     font-size: 2rem;
     font-weight: 700;
+    margin: 1rem 0rem 1rem 0;
 }
 
 .profile-position {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     font-weight: 300;
     color: var(--blue-color);
+    margin: 1rem 0rem 1rem 0;
 }
 
 .profile-body {
     font-family: 'Open Sans';
     font-weight: 400;
     line-height: 1.5rem;
+    margin: 1rem 0rem 1rem 0;
 }
 
 .footer {
@@ -484,12 +488,18 @@ html, body {
     color: var(--white-color);
     display: grid;
     place-items: center;
+    font-family: 'Open Sans';
+    font-weight: 400;
     font-size: 1rem;
 }
 
-.footer a {
+.maker-link {
     text-decoration: none;
     color: var(--white-color);
+}
+
+.maker-link:hover {
+    text-decoration: underline;
 }
 
 @media (min-width: 600px) {
@@ -498,6 +508,9 @@ html, body {
     }
     .card {
         flex-direction: row;
+    }
+    .profile-sidebar {
+        max-width: calc(100% / 3);
     }
     .profile-main {
         text-align: left;
