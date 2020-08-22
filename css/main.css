@@ -362,7 +362,7 @@ html, body {
     width: 100%;
     height: 100%;
     font-size: 100%;
-    font-family: 'Source Code Pro';
+    font-family: 'Source Code Pro', -apple-system, 'Lucida Sans Typewriter', Courier, sans-serif;
     font-weight: 300;
 }
 
@@ -473,7 +473,7 @@ html, body {
 }
 
 .profile-body {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', Helvetica, Arial ;
     font-weight: 400;
     line-height: 1.5rem;
     margin: 1rem 0rem 1rem 0;
@@ -484,7 +484,7 @@ html, body {
     color: var(--white-color);
     display: grid;
     place-items: center;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', Helvetica, Arial;
     font-weight: 400;
     font-size: 1rem;
 }
